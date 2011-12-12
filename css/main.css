@@ -1,0 +1,243 @@
+/* v1.0 | 20080212 
+http://colorschemedesigner.com/#2531Tw0w0w0w0
+Border: #4DA838 
+Body: #d7d7d7
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end reset*/
+
+html, body {height: 100%;}
+#site {min-height: 100%; }
+
+html {
+	background: #d7d7d7 url(../images/white-line.gif) repeat-x 0 170px;
+}
+
+body {
+	font-family: "trebuchet ms", sans-serif;
+	font-size: 11px;
+	background: url(../images/body.gif) repeat-y center top;
+}
+
+#header {
+	border-top: 28px solid #8d7803;
+	border-bottom: 7px solid #282828;
+	height: 62px;	
+	background: #fff;
+	min-width: 960px;	
+	position: relative;
+}
+
+#header h1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -420px;
+	top: 9px;
+}
+
+#nav {
+	margin-right: -120px;
+	right: 50%;
+	position: absolute;
+	top: 14px;
+}
+
+#nav li {
+	float: left;
+	background: url(../images/div.gif) no-repeat right 11px;
+	padding-right: 10px;	
+	font-size: 13px;
+}
+#nav li.last {background: none}
+#nav a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	text-transform: lowercase;
+	padding: 10px 14px;
+}
+
+#nav a:hover, #nav a.current {
+	color: #8d7803 ;
+}
+
+#header h1 a {
+	display: block;
+	width: 125px;
+	height: 44px;
+	overflow: hidden;
+	text-indent: -5000px;
+	background: url(../images/Veedon_logo_h44.jpg);
+}
+
+#page-title {
+	font-size: 24px;
+	color: #8d7803;
+	border-bottom: 2px solid #8d7803;
+	font-family: sans-serif;
+	font-weight: normal;
+	height: 30px;
+	margin-bottom: 20px;
+	padding: 43px 0 0 60px;
+}
+
+#wrap {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding: 0 0 50px 0;
+	background: #fff;
+}
+
+#content {
+	line-height: 18px;
+	padding-left: 60px;
+	width: 450px;
+	font-size: 12px;
+}
+
+p {
+	margin: 7px 0 13px 0;
+}
+
+a, a:link, a:active, a:visited {	color: #4F9BD2;}
+
+h1, h2, h3 {
+	font-weight: normal;
+	color: #000;
+}
+
+h1 {font-size: 24px}
+h2 {font-size: 18px}
+h3 {font-size: 16px}
+
+#content ul, #content ol {
+	margin: -8px 0 8px 0;
+}
+
+#content ol {
+	padding-left: 25px;
+	list-style: decimal;
+}
+#content ul {margin-top: 5px;}
+#content ul li {
+	padding-left: 25px;
+	background: url(../images/div.gif) no-repeat 6px 4px;
+}
+.extra-height {height: 100px;}
+#content li {
+	padding: 2px 0;
+}
+div#content-callout { width: 200px; position: absolute; right: 170px;
+    top: 93px; }
+h2#link-callout  { width: 144px; height: 133px;	 position: absolute; right: 195px;
+  top: 93px;}
+h2#link-callout a { display: block; text-decoration: none; text-align: center; 
+  color: #456EB1; font-weight: bold; padding-top: 55px;	 height: 78px;	
+  font-size: 17px; }
+h2#link-callout a:hover {color: #DDA636}
+
+#twitter {
+	position: absolute;
+	right: 60px;
+	top: 31px;
+}
+
+#footer {
+	background: #000;
+	border-top: 3px solid #fff;
+/*	border-bottom: 3px solid #000;*/
+	height: 25px;
+	
+	position: relative;
+	margin-top: -28px; /* negative value of footer height */
+	clear:both;	
+}
+
+/* image rollover */
+a#company-image-link {
+  background: url(../images/entreprenuers_link.png);
+  height: 260px;
+  width: 260px;
+  display: block;
+  float: left;
+  margin-right: 40px;
+  margin-left: -10px;
+}
+a#company-image-link:hover { 
+  background-position: 0 -260px;
+}
+a#investor-image-link {
+  background: url(../images/investors_link.png);
+  height: 260px;
+  width: 260px;
+  float: left;
+  display: block;
+}
+a#investor-image-link:hover { 
+  background-position: 0 -260px;
+}
+
+#contact-info {
+  line-height: 18px;
+}
+#contact-info h3 {margin-bottom: 5px;}
+
+#posts  {list-style:none;}
+div#content-callout-wide { width: 250px; position: absolute; right: 70px;
+    top: 93px; }
+.personal-contact-info {margin-top: -8px; }
+#img-tkofol {margin-top: 100px;}
+#img-ewarner {margin-top: 100px;}
+.center {text-align: center;}
